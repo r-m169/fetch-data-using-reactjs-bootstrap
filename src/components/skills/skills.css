@@ -1,0 +1,151 @@
+/* skills.css */
+
+/* Global styling */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 800px;
+    /* Adjust as needed */
+    margin: 0 auto;
+}
+
+/* SkillsSection styles */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-heading {
+    color: #ffffff;
+
+}
+
+.progress-title {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: white;
+}
+
+.progress {
+    width: 100vh;
+    height: 30px;
+    /* Adjust as needed */
+    background-color: #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #64507C;
+    transition: width 1s ease-in-out;
+    border-radius: 15px;
+}
+
+.progress-value {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding-right: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+/* Apply specific width animations for each progress bar */
+.progress-bar:nth-child(1) {
+    animation: width-animation-1 2s ease-in-out forwards;
+    /* Red */
+}
+
+.ht_skill {
+    width: 100%;
+    background-color: green;
+}
+
+.css_skill {
+    width: 70%;
+    background-color: red;
+}
+
+.bt_skill {
+    width: 30%;
+    background-color: yellow;
+}
+
+.r_skill {
+    width: 40%;
+    background-color: rgb(255, 0, 157);
+}
+
+.n_skill {
+    width: 30%;
+    background-color: rgb(77, 255, 181);
+}
+
+.progress-bar:nth-child(2) {
+    animation: width-animation-2 2s ease-in-out forwards;
+    background-color: #9A9AFF;
+    /* Blue */
+}
+
+.progress-bar:nth-child(3) {
+    animation: width-animation-3 2s ease-in-out forwards;
+    background-color: #24248D;
+    /* Dark Blue */
+}
+
+.progress-bar:nth-child(4) {
+    animation: width-animation-4 2s ease-in-out forwards;
+    background-color: greenyellow;
+}
+
+.progress-bar:nth-child(5) {
+    animation: width-animation-5 2s ease-in-out forwards;
+    background-color: #E0FFB1;
+    /* Light Green */
+}
+
+@keyframes width-animation-1 {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes width-animation-2 {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes width-animation-3 {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes width-animation-4 {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes width-animation-5 {
+    from {
+        width: 0;
+    }
+}

@@ -1,0 +1,15 @@
+.footer {
+    background-color: #64507C;
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    color: #ffffff;
+    size: 100px;
+  }
+  
+  .footer a:hover {
+    color: wheat;
+  }
+ 
+  
